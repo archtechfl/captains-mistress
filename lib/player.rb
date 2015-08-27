@@ -1,5 +1,7 @@
 class Player
-  def initialize
-    @balls_to_play = 21
+  attr_accessor :game, :team_name
+
+  def name
+    @name || @team_name
   end
 end
